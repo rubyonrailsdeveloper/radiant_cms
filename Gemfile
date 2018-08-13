@@ -6,8 +6,7 @@ gem 'combustion', '~> 0.5.4', :group => :test
 
 if ENV['TRAVIS']
   gemspec :development_group => :test
-  gem "mysql"
-  gem "pg"
+  gem "mysql2"  
 end
 
 group :development do

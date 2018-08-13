@@ -2,5 +2,4 @@ source "https://rubygems.org"
 
 gemspec :development_group => :test
 gem "rails", "~> 3.2.0"
-gem "mysql"
-gem "pg"
+gem "mysql2"
